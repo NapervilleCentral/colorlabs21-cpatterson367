@@ -14,7 +14,7 @@ public class ColorLabs
     {
         //adjustRed
         
-        /**
+        /*
         final double FACTOR = 100;
         Picture pic = new Picture("images//c2.jpeg");
     
@@ -33,10 +33,10 @@ public class ColorLabs
         }
         
         pic.explore();
-        **/
+        pic.write("images//colorLabs//adjustRed.jpg");
+        */
         
-        
-        /**
+        /*
         //negate
         Picture pic = new Picture("images//c2.jpeg");
     
@@ -55,9 +55,11 @@ public class ColorLabs
         }
             
         pic.explore();
-        **/
+        pic.write("images//colorLabs//negate.jpg");
+        */
         
-        /**
+        
+        /*
         // gresycale
         Picture pic = new Picture("images//c2.jpeg");
     
@@ -75,10 +77,10 @@ public class ColorLabs
         }
         
         pic.explore();
+        pic.write("images//colorLabs//greyscale.jpg");
+        */
         
-        **/
-        
-        /**
+        /*
         //lighten
         
         
@@ -108,9 +110,10 @@ public class ColorLabs
         }
         
         pic.explore();
-        **/
+        pic.write("images//colorLabs//lighten.jpg");
+        */
         
-        /**
+        /*
         //changeColor
         Picture pic = new Picture("images//c2.jpeg");
     
@@ -145,9 +148,11 @@ public class ColorLabs
             i.setColor(colChanged);
         }
         pic.explore();
-        **/
+        pic.write("images//colorLabs//changeColor.jpg");
+        */
         
         
+        /*
         //blueify
         Picture pic = new Picture("images//c2.jpeg");
     
@@ -156,14 +161,14 @@ public class ColorLabs
         
         Color colChanged;
         int r,g,b;
-        final int RFACE=200,GFACE=140,BFACE=130,TOL=30,TOLR=90;
+        final int RFACE=200,GFACE=150,BFACE=150,TOL=30,TOLR=50;
         for (Pixel i : pix)
         {
             r=i.getRed();
             g=i.getGreen();
             b=i.getBlue();
             
-            if (Math.abs(RFACE - r) < TOLR && Math.abs(GFACE - g) < TOL && Math.abs(RFACE - r) < TOL)
+            if (Math.abs(RFACE - r) < TOLR && Math.abs(GFACE - g) < TOL && Math.abs(BFACE - b) < TOL)
             {
                 colChanged = new Color((int)(r*.7),(int)(g*.7),255);
                 i.setColor(colChanged);
@@ -172,6 +177,8 @@ public class ColorLabs
         
         
         pic.explore();
+        pic.write("images//colorLabs//blueify.jpg");
+        */
         
     }
 }

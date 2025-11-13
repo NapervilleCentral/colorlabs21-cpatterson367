@@ -13,7 +13,7 @@ USER INSTRUCTIONS:
 
 
 
-1. person - critique
-2. person - critique
+1. Cal - pink>purple>darkblue(perhaps yellow) add another dark bucket
+2. Mr. Hayes - looks good, make slight changes to bucket balance
 3. person - critique
 4. person - critique
