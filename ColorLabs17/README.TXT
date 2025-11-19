@@ -15,5 +15,5 @@ USER INSTRUCTIONS:
 
 1. Cal - pink>purple>darkblue(perhaps yellow) add another dark bucket
 2. Mr. Hayes - looks good, make slight changes to bucket balance
-3. person - critique
+3. My friend Owen - nose could be more defined
 4. person - critique
