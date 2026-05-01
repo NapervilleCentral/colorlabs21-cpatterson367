@@ -1,14 +1,14 @@
 #BlueJ package file
-dependency1.from=SheparFaireyLab
+dependency1.from=TestPicture17
 dependency1.to=Pixel
 dependency1.type=UsesDependency
-dependency2.from=TestPicture17
+dependency2.from=SheparFaireyLab
 dependency2.to=Pixel
 dependency2.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=2640
-editor.fx.0.y=380
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 objectbench.height=93
 objectbench.width=760
 package.divider.horizontal=0.6

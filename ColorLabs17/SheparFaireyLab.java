@@ -17,7 +17,7 @@ public class SheparFaireyLab
     {
         Scanner kb = new Scanner(System.in);
         System.out.println("Enter output filename: ");
-        String name = "shepFairey/" + kb.next() + ".jpeg";
+        //String name = "shepFairey/" + kb.next() + ".jpeg";
         
         Picture pic = new Picture("shepFairey/source/c6.jpeg");
         Pixel[] pix;
@@ -65,7 +65,7 @@ public class SheparFaireyLab
         
         pic.explore();
         
-        pic.write(name);
+        //pic.write(name);
          
          
          
